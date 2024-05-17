@@ -22,7 +22,7 @@
   width: 20%;
 }
 .nav-list a {
-  text-decoration: none !important;
+  text-decoration: none;
   color:rgb(153, 148, 148);
   font-weight: 400;
 }
