@@ -1,0 +1,32 @@
+.header-section {
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  width: 88%;
+  margin: auto;
+  font-family: Raleway;
+
+}
+.logo {
+  width: 100px;
+  object-fit: contain;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+.nav-list a {
+  text-decoration: none !important;
+  color:rgb(153, 148, 148);
+  font-weight: 400;
+}
+.nav-list a:hover {
+  color: hotpink;
+}
+

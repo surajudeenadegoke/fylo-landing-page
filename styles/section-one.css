@@ -1,0 +1,53 @@
+.section-one {
+  display: flex;
+  margin-top: 0;
+  width: 90%;
+  margin: auto;
+}
+.section-one-right img {
+  width: 100%;
+}
+.section-one-left {
+  width: 50%;
+}
+.section-one-right {
+  width: 50%;
+}
+.section-one-left-header {
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 700;
+  width: 89%;
+  line-height: 65px;
+  color: hsl(243, 87%, 12%);
+}
+.section-one-left-para {
+  font-size: 16px;
+  width: 71%;
+  line-height: 25px;
+  color: hsl(238, 22%, 44%);
+  font-weight: 400;
+  font-family: Open Sans;
+}
+.btn-container {
+  display: flex;
+  width: 68%;
+  margin-bottom: 0;
+}
+.mail-btn {
+  width: 50%;
+  padding: 15px;
+  border: 1px solid rgb(247, 177, 177);
+  background-color: #fff;
+  margin-right: 20px;
+  text-align: left;
+}
+.start-btn {
+  width: 35%;
+  background-color: rgb(11, 112, 244);
+  color: #fff;
+  border: 0;
+}
+.btn-para {
+  color: rgb(247, 177, 177);
+}

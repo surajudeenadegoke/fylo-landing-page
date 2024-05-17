@@ -1,0 +1,46 @@
+.section-two {
+  /* display: flex; */
+  margin-top: 0;
+  width: 100%;
+  margin: auto;
+  background: url("../images/bg-curve-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+  padding-top: 50px;
+}
+.section-two-left {
+  width: 55%;
+}
+.section-two-right {
+  width: 45%;
+}
+.section-two-right img {
+  width: 100%;
+}
+/* .section-two h3 {
+  font-family: Raleway;
+  font-size: 38px;
+  font-weight: 700;
+  width: 89%;
+  line-height: 65px;
+  color: hsl(243, 87%, 12%);
+} */
+.section-two-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.div-para{
+  width:90%;
+  margin: auto;
+}
+.div-para h3{
+  font-family: Raleway;
+  font-size: 38px;
+  font-weight: 700;
+  width: 89%;
+  line-height: 65px;
+  color: hsl(243, 87%, 12%);
+}
