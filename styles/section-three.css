@@ -84,6 +84,9 @@ a:hover {
   height: 25px; */
   margin-right: 10px;
 }
+.footer-logo{
+  fill:white;
+}
 
 @media screen and (max-width: 600px) {
   .section-three {
