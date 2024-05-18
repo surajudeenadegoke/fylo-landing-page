@@ -51,3 +51,24 @@
 .btn-para {
   color: rgb(247, 177, 177);
 }
+@media screen and (max-width: 600px) {
+  .section-one-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-one {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .mail-btn{
+ padding-left: 20px;
+ padding-right: ;
+
+  }
+}

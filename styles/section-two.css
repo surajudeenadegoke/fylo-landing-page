@@ -82,3 +82,19 @@
 margin-top: 0;
 font-size: 13px;
 }
+@media screen and (max-width: 600px) {
+  .section-two-container{
+    flex-direction: column;
+    width: 100%;
+  }
+  .btn-container{
+    flex-direction: column;
+    width:90%;
+    justify-content: center;
+    align-items: center;
+  }
+  .mail-btn,.start-btn{
+    width:70%;
+  }
+}
+

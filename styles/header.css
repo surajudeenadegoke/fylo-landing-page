@@ -10,7 +10,6 @@
   width: 88%;
   margin: auto;
   font-family: Raleway;
-
 }
 .logo {
   width: 100px;
@@ -23,10 +22,15 @@
 }
 .nav-list a {
   text-decoration: none;
-  color:rgb(153, 148, 148);
+  color: rgb(153, 148, 148);
   font-weight: 400;
 }
 .nav-list a:hover {
   color: hotpink;
 }
-
+@media screen and (max-width: 600px) {
+  .nav-list {
+    width: 50%;
+  }
+  
+}

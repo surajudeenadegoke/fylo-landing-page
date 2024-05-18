@@ -44,6 +44,10 @@
 }
 footer {
   background-color: hsl(243, 87%, 12%);
+  color:white
+
+}
+.footer{
   display: flex;
   justify-content: space-around;
   /* align-items: center; */
@@ -62,4 +66,24 @@ a {
 }
 a:hover {
   color: rgb(0, 85, 255);
+}
+.phone, .mail{
+  display: flex;
+  align-items: center;
+
+}
+.phone img{
+  width:10px;
+  height: 25px;
+  margin-right: 10px;
+}
+.mail img{
+  /* width:10px;
+  height: 25px; */
+  margin-right: 10px;
+}
+@media screen and (max-width: 600px) {
+  .section-three {
+    flex-direction: column;
+  }
 }
