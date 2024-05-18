@@ -44,15 +44,17 @@
 }
 footer {
   background-color: hsl(243, 87%, 12%);
-  color:white
+  color:white;
+  padding:70px
+
 
 }
 .footer{
   display: flex;
   justify-content: space-around;
   /* align-items: center; */
-  padding-top: 170px;
-  padding-bottom: 100px;
+  /* padding-top: 170px;
+  padding-bottom: 100px; */
 }
 .link-item-one,
 .link-item-two {
@@ -82,6 +84,7 @@ a:hover {
   height: 25px; */
   margin-right: 10px;
 }
+
 @media screen and (max-width: 600px) {
   .section-three {
     flex-direction: column;
