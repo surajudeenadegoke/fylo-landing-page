@@ -96,5 +96,8 @@ font-size: 13px;
   .mail-btn,.start-btn{
     width:70%;
   }
+  .testimonial-identity{
+   margin-left: 40px;
+  }
 }
 

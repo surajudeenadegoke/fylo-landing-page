@@ -51,8 +51,8 @@
 .btn-para {
   color: rgb(247, 177, 177);
 }
-@media screen and (max-width: 600px) {
-  .section-one-left {
+@media screen and (max-width: 375px) {
+  /* .section-one {
     display: flex;
     flex-direction: column;
   }
@@ -70,5 +70,25 @@
  padding-left: 20px;
  padding-right: ;
 
+  } */
+  .section-one {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .section-one-left {
+    width: 100%;
+    text-align: center;
+  }
+  .section-one-right {
+  width:90%;
+  margin: auto;
+  }
+  .section-one-left-header {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .section-one-left-para{
+    font-size: 13px;
+    
   }
 }

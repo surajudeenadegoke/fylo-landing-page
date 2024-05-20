@@ -86,10 +86,15 @@ a:hover {
 }
 .footer-logo{
   fill:white;
+  
+ 
 }
 
 @media screen and (max-width: 600px) {
   .section-three {
+    flex-direction: column;
+  }
+  .footer{
     flex-direction: column;
   }
 }
