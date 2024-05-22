@@ -9,7 +9,6 @@
 
   color: white;
   padding: 0 20px;
-
 }
 .section-three-left {
   width: 34%;
@@ -92,30 +91,55 @@ a:hover {
 @media screen and (max-width: 375px) {
   .section-three {
     flex-direction: column;
-    width: 95%;
+  }
+
+  .section-three-left {
+    width: 100%;
+    text-align: center;
+    width: 80%;
     margin: auto;
-    border: 2px solid green;
+    padding: 10px;
+  }
+  .section-three-left-header {
+    font-size: 18px;
+  }
+  .section-three-left p {
+    font-size: 13px;
+    width: 90%;
+    color: rgb(231, 228, 228);
+  }
+
+  .section-three-right {
+    width: 90%;
+    margin: auto;
+  }
+  .section-three-right p {
+    display: none;
+  }
+  .btn-one,
+  .btn-two {
+    padding-left: 10px;
+    padding-right: 80px;
+    width: 100%;
+  }
+  .btn-two {
+    font-size: 12px;
+    margin: 8px 0 60px 0;
   }
   .footer {
     flex-direction: column;
   }
+  .link-item-one,
+  .link-item-two {
+    margin-bottom: 40px;
+  }
+  .link-item-one{
+    margin-top: 40px;
 
-  .section-three-left {
-    border: 2px solid red;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
   }
-  .section-three-right{
-    width:80%;
-    margin-bottom: 30px;
-  }
-  .btn-one,.btn-two{
-    padding-left:10px;
-    padding-right:80px
-  }
-  .btn-two{
-  font-size: 14px;
+  .link-item-one a,
+  .link-item-two a{
+    font-size: 10px;
+    font-family: "Open Sans";
   }
 }
