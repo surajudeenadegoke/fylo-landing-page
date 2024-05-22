@@ -31,7 +31,7 @@
 }
 .btn-container {
   display: flex;
-  width: 68%;
+  width: 100%;
   margin-bottom: 0;
 }
 .mail-btn {
@@ -43,7 +43,7 @@
   text-align: left;
 }
 .start-btn {
-  width: 35%;
+  width: 45%;
   background-color: rgb(11, 112, 244);
   color: #fff;
   border: 0;
@@ -52,43 +52,45 @@
   color: rgb(247, 177, 177);
 }
 @media screen and (max-width: 375px) {
-  /* .section-one {
-    display: flex;
-    flex-direction: column;
-  }
-  .btn-container {
-    display: flex;
-    flex-direction: column;
-  }
-  .section-one {
-    display: flex;
-    flex-direction: column;
-   
-  }
-
-  .mail-btn{
- padding-left: 20px;
- padding-right: ;
-
-  } */
   .section-one {
     flex-direction: column-reverse;
-    text-align: center;
+    /* text-align: center; */
   }
   .section-one-left {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     text-align: center;
   }
   .section-one-right {
-  width:90%;
-  margin: auto;
+    width: 90%;
+    margin: auto;
   }
   .section-one-left-header {
     font-size: 25px;
     line-height: 30px;
+    width: 100%;
   }
-  .section-one-left-para{
-    font-size: 13px;
-    
+  .section-one-left-para {
+    font-size: 14px;
+    text-align: center;
+    width: 85%;
+    margin-bottom: 20px;
+  }
+  .btn-container{
+    display:block;
+    padding:5px;
+    width:60%
+  }
+  .mail-btn {
+    padding:10px;
+   
+  }
+  .start-btn {
+    padding-left:25px;
+
+  }
+
+  .btn-para {
+    display: none;
   }
 }

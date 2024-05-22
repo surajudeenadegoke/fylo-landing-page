@@ -28,9 +28,19 @@
 .nav-list a:hover {
   color: hotpink;
 }
-@media screen and (max-width: 600px) {
-  .nav-list {
-    width: 50%;
+@media screen and (max-width: 375px) {
+  
+  .header{
+    width:80%;
+  }
+  .header img{
+    width:70px;
+  }
+  .nav-list{
+    width: 55%;
+  }
+  .nav-list a{
+    color:rgb(68, 65, 65)
   }
   
 }

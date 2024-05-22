@@ -1,12 +1,15 @@
 .section-three {
   margin-top: 0;
   background-color: hsl(238, 22%, 44%);
-  padding-top: 100px;
+  /* padding-top: 100px;
   padding-left: 60px;
-  padding-bottom: 70px;
-  display: flex;
+  padding-bottom: 70px; */
+
   align-items: center;
+
   color: white;
+  padding: 0 20px;
+
 }
 .section-three-left {
   width: 34%;
@@ -27,8 +30,8 @@
 .btn-one {
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-right: 400px;
-  padding-left: 15px;
+  padding-right: 200px;
+  padding-left: 10px;
 }
 .btn-two {
   padding-top: 14px;
@@ -44,12 +47,10 @@
 }
 footer {
   background-color: hsl(243, 87%, 12%);
-  color:white;
-  padding:70px
-
-
+  color: white;
+  padding: 70px;
 }
-.footer{
+.footer {
   display: flex;
   justify-content: space-around;
   /* align-items: center; */
@@ -69,32 +70,52 @@ a {
 a:hover {
   color: rgb(0, 85, 255);
 }
-.phone, .mail{
+.phone,
+.mail {
   display: flex;
   align-items: center;
-
 }
-.phone img{
-  width:10px;
+.phone img {
+  width: 10px;
   height: 25px;
   margin-right: 10px;
 }
-.mail img{
+.mail img {
   /* width:10px;
   height: 25px; */
   margin-right: 10px;
 }
-.footer-logo{
-  fill:white;
-  
- 
+.footer-logo {
+  fill: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
   .section-three {
     flex-direction: column;
+    width: 95%;
+    margin: auto;
+    border: 2px solid green;
   }
-  .footer{
+  .footer {
     flex-direction: column;
+  }
+
+  .section-three-left {
+    border: 2px solid red;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .section-three-right{
+    width:80%;
+    margin-bottom: 30px;
+  }
+  .btn-one,.btn-two{
+    padding-left:10px;
+    padding-right:80px
+  }
+  .btn-two{
+  font-size: 14px;
   }
 }
